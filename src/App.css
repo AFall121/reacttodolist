@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.hello {
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 3rem;
+  background-color: crimson;
+  color: #efefef;
+}
+
+.todolist {
+  margin: 1rem auto;
+  width: 420px;
+  border: 1px solid crimson;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-top: 1rem;
+  padding: 0;
+}
+
+ul .item {
+  position: relative;
+  width: 100%;
+  /* height: 3rem; */
+  line-height: 3rem;
+}
+
+ul .item .delete {
+  display: none;
+  position: absolute;
+  height: 2rem;
+  right: 0.2rem;
+  margin: 0.5rem auto;
+  float: right;
+  background-color: crimson;
+  color: #000;
+}
+ul .item:hover {
+  background: skyblue;
+}
+
+ul .item:hover .delete {
+  display: inline-block;
+}
