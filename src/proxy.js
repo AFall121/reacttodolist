@@ -32,3 +32,4 @@ console.log(pro);
 console.log(obj === pro); // false
 // 可以看出pro和obj是一模一样的，但是又不相等，从某种意义
 // 上来讲，这就是深拷贝有木有？当然我还是个彩笔，有待深入这些问题
+let unused_var = 'suibian'
